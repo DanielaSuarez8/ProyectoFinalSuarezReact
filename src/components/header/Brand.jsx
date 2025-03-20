@@ -1,4 +1,4 @@
-import brand from "../../img/brand.svg";
+import brand from "../../img/brand.png";
 import { Link } from "react-router-dom"
 
 const Brand = () => {

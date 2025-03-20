@@ -10,7 +10,7 @@ body{
 }
 
 header{
-  background-color: #021526;
+  background-color: #BE5985;
   z-index: 5;
   position: fixed;
   top: 0;
@@ -26,10 +26,11 @@ header .containerBrand{
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 header .containerBrand img{
-  transform: scale(0.70);
+  transform: scale(1.5);
 }
 
 /* containerList */
@@ -54,6 +55,11 @@ header .containerItemList ul li{
   
   margin: 0 0 0 50px;
   color: var(--color-txt-nav);
+}
+
+header .containerItemList ul li a{
+  text-decoration: none;
+  color: #FFEDFA;
 }
 
 /* containerCart */
